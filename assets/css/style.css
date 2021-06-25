@@ -36,7 +36,7 @@ img {
 header {
     display: flex;
     flex-direction: column;
-    background-image: url(images/buddha.jpg);
+    background-image: url(buddha.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
