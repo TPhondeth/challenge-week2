@@ -1,0 +1,201 @@
+/* Variables */
+:root {
+    --primary-color: #edf2f4;
+    --secondary-color: #ee9b00;
+    --tertiary-color: #003049;
+}
+
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default font-size */
+html {
+    font-size: 62.5%;
+}
+
+/* Font Styles */
+body {
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat', cursive;
+}
+
+/* Default Img Style */
+img {
+    width: 100%;
+    height: 100;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Header/Navigation style */
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/buddha.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: 'Caveat', cursive;
+    color: var(--secondary-color);
+    padding-left: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    font-size: 5rem;
+    padding: 0 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--secondary-color);
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Rock Salt', cursive;
+    color: var(--tertiary-color);
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+    font-size: 3rem;
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+/* Work Section */
+.work {
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--primary-color);
+    list-style: none;
+}
+
+.gallery-item {
+    width: calc(100% / 2); 
+    margin: 0 15px 30px;
+    padding: 0;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.overlay {
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 0.6;
+}
+
+.overlay a {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Footer/Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.contact p {
+    font-size: 2.5rem;
+    color: var(--tertiary-color);
+    font-family: 'Caveat', cursive;
+    text-align: left;
+    padding: 15px;
+}
+
+.contact h4 {
+    font-size: 2.5rem;
+    color: var(--tertiary-color);
+    font-family: 'Rock Salt', cursive;
+}
+
+aside {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-direction: column;
+}
+
+.social i {
+    font-size: 4rem;
+    color: var(--tertiary-color);
+    padding: 10px;
+}
+
+.social i:hover,
+.social i:focus {
+    color: var(--secondary-color);
+}
+
+.contact img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
