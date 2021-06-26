@@ -239,6 +239,10 @@ aside {
         font-size: 1.5rem;
     }
 
+    .overlay a {
+        font-size: 1.5rem;
+    }
+
     .contact img {
         width: 150px;
         height: 150px;
