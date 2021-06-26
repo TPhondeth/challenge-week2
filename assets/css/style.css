@@ -183,10 +183,30 @@ aside {
     flex-direction: column;
 }
 
+/* Social Media Icons */
 .social i {
     font-size: 4rem;
-    color: var(--tertiary-color);
     padding: 10px;
+}
+
+.social .fa-facebook-square {
+    color: #1877f2;
+}
+
+.social .fa-twitter-square {
+    color: #1da1f2;
+}
+
+.social .fa-linkedin {
+    color: #0a66c2;
+}
+
+.social .fa-github-square {
+    color: var(--tertiary-color);
+}
+
+.social .fa-instagram-square {
+    color:  #f46f30;
 }
 
 .social i:hover,
