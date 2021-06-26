@@ -223,7 +223,25 @@ aside {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 7rem;
+    }
 
+    nav a {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+
+    .social i {
+        font-size: 3rem;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
