@@ -143,8 +143,10 @@ h2 {
 
 .overlay a {
     font-size: 3rem;
+    font-weight: bold;
     color: var(--primary-color);
     font-family: 'Hind', sans-serif;
+    text-decoration: none;
 }
 
 /* Footer/Contact */
